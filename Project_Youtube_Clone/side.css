@@ -1,0 +1,33 @@
+/* SIDE SECTION */
+
+.side-section{
+    position: fixed;
+    background-color: white;
+    top: 55px;
+    left: 0;
+    bottom: 0;
+    width: 72px; 
+    padding-top: 5px;   
+    z-index: 200;
+}
+.side-section-link{
+    height: 74px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.side-section-link:hover{
+    background-color: rgb(232, 231, 231);
+}
+.side-section-link img {                       /* side-section-link k andar jo v image hai usko hi sirf target karega */
+    margin-top: 4px;
+    width: 24px;
+    margin-bottom: 7px;
+}
+ .side-section-link div {                      /* side-section-link k andar jo v div hai usko hi sirf target karega */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    
+}
